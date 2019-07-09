@@ -1,0 +1,20 @@
+#tp, #tk, #den {
+    grid-column: 2;
+}
+#tp {
+    grid-row: 2;
+}
+#tk {
+    grid-row: 3;
+}
+#em{
+    grid-row: 5;
+}
+#kb, #nb, #jh, #em, #result {
+    grid-column: 1;
+}
+
+#button {
+    grid-column: 1;
+    grid-row: 6;
+}

@@ -1,0 +1,22 @@
+#tp, #tk, #em {
+    grid-column: 3;
+}
+#tp {
+    grid-row: 2;
+}
+#tk {
+    grid-row: 3;
+}
+#em{
+    grid-row: 4;
+}
+#jh {
+    grid-column: 2;
+}
+#p {
+    grid-column: 2;
+}
+#button {
+    grid-column: 3;
+    grid-row: 4;
+}

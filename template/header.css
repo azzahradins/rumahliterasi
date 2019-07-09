@@ -1,0 +1,32 @@
+
+header{
+    background: linear-gradient(0deg, #0077c2, #311b92);
+}
+.title{
+    padding: 0px;
+    font-size: 32px;
+    font-weight:bolder;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/**menu**/
+.menu{
+    align-self: center;
+    text-align: right;
+}
+
+.menu > a {
+    color:white;
+    margin-left: 0.7em;
+}
+
+.menu .menu-aboutme{
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 100%;
+}
+#menu-landing > a {
+    color: white;
+    margin-left: 30px;
+}

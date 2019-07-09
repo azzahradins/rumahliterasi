@@ -1,0 +1,55 @@
+#catalog{
+    padding: 0.5em;
+    grid-column: 1fr;
+    background: rgba(191, 188, 188, 0.6);
+    border-radius: 3px;
+}
+#catalog > p{
+    color: rgb(54, 54, 54);
+
+}
+.cardContainer{
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0.6em;
+}
+#location > .card{
+    background: #b8b8b8;
+    text-overflow: ellipsis;
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top:8px;
+    border-radius: 4px;
+}
+#location > .card:last-child{
+    margin-right: 0em;
+}
+#location > .card > p:nth-child(2n+1){
+    font-size: small;
+}
+#location > .card > a{
+    position: relative;
+}
+#notification{
+    grid-column: 2;
+    padding: 0.5em;
+    grid-column: 1fr;
+    background: rgba(191, 188, 188, 0.6);
+    border-radius: 3px;
+}
+
+#listNotification{
+    margin-top: 8px;
+    height: 405px;
+    overflow-y: scroll;
+}
+.alert-box{
+    margin-bottom: 8px;
+}
+.alert-box.container{
+    grid-template-columns: 10% 80%;
+}

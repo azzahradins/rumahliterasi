@@ -1,0 +1,13 @@
+img{
+    width: 15em;
+    grid-row: 1/span 7;
+}
+p{
+    grid-column: 2;
+}
+.dashboardCatalog{
+    grid-template-columns: 15em auto;
+    grid-template-rows: repeat(7, 0fr);
+    grid-row-gap: 0.4em;
+    padding-right: 10em;
+}

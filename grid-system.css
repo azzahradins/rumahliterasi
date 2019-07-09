@@ -1,0 +1,60 @@
+@media only screen and (max-width: 800px) {
+    header{
+        width: 100%;
+        position: fixed;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+    .menu{
+        display: none;
+    }
+    .title{
+        grid-column: 2;
+        text-align: center;
+        padding: 10px;
+        font-size: 2.5rem;
+    }
+    .card{
+        grid-column: 2/ span 3;
+        text-align: center;
+        margin: 1em 5em 1.5em 5em
+    }
+}
+
+
+@media only screen  and (min-width : 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(12, auto);
+        padding-left: 20vh;
+        padding-right: 20vh;
+    }
+    header{
+        width: 100%;
+    }
+    .navbar{
+        z-index:3;
+    }
+    .title{
+        grid-column: 1;
+        padding: 10px;
+    }
+    .menu{
+        grid-column: 12;
+    }
+    .card{
+        grid-column: auto;
+        text-align: center;
+        padding: 25px 0px 25px;
+    }
+    .containerFooter{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #marking{
+        grid-column: 3;
+    }
+}

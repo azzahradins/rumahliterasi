@@ -1,0 +1,39 @@
+
+        #book-list {
+            background: #f2f2f2;
+            width: min-content;
+            padding: 0.5em;
+            margin-top: 0.3em;
+            margin-bottom: 2em;
+            text-align: center;
+        }
+
+        .button-primary {
+            width: 120px;
+            text-align: center;
+        }
+        .button-danger {
+            width: 150px;
+            font-size: 14px;
+            text-align: center;
+            padding: 0.4em;
+        }
+#list{
+    grid-row: 2;
+    grid-column: 1/span2;
+}
+#result{
+    padding-left: 0px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 12px;
+}
+img{
+    object-fit: cover;
+    width: 100px;
+    height: 150px;
+    grid-row: 1/ span 4;
+}
+.dashboardCatalog{
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 0em;
+}

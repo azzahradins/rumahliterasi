@@ -1,0 +1,14 @@
+main{
+    margin-left: 160px;
+}
+.dashboardCatalog{
+    grid-template-columns: minmax(auto, 50%);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 1em;
+    grid-row-gap: 1.5em;
+    padding-top: 1.5em;
+}
+.container {
+    padding-left: 10vh;
+    padding-right: 10vh;
+}

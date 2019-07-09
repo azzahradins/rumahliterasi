@@ -1,0 +1,62 @@
+
+#result{
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1 / span 2;
+}
+table{
+    border-collapse: collapse;
+}
+.tgl_table{
+    text-align: center;
+}
+td{
+    padding: 15px;
+    text-align: left;
+    font-size: 13px;
+}
+th{
+    background-color: rgb(75, 120, 156);
+    color: white;
+    padding: 3px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+td:nth-child(4){
+    text-overflow: ellipsis;
+    height: 20px;
+    overflow-y: hidden; 
+}
+#kode_buku{
+    width: 60px;
+}
+#nama_buku{
+    width: 140px;
+}
+#stok{
+    width: 70px;
+}
+#sinopsis{
+    width: 450px;
+    max-lines: 1;
+}
+#penerbit{
+    width: 130px;
+}
+#jumlah_halaman{
+    width: 10px;
+}
+#add_book{
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1 / span 2;
+    margin-bottom: 6px;
+}
+img{
+    object-fit: cover;
+    width: 100px;
+    height: 150px;
+    grid-row: 1/ span 4;
+}
+.dashboardCatalog{
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 0em;
+}
